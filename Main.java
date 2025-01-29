@@ -65,15 +65,15 @@ public class Main {
             System.out.println(key + " : " + value);
         }
 
-        Map<String, Color> tfavoriteColors = new TreeMap<>(favoriteColors);
-        favoriteColors.put("Juliet", Color.BLUE);
-        favoriteColors.put("Romeo", Color.GREEN);
-        favoriteColors.put("Adam", Color.RED);
-        favoriteColors.put("Eve", Color.BLUE);
-        favoriteColors.put("Robert", Color.BLACK);
-        favoriteColors.put("Mark", Color.WHITE);
-        favoriteColors.put("Pedro", Color.YELLOW);
-        favoriteColors.put("Cole", Color.BLUE);
+        Map<String, Color> tfavoriteColors = new TreeMap<String, Color>();
+        tfavoriteColors.put("Juliet", Color.BLUE);
+        tfavoriteColors.put("Romeo", Color.GREEN);
+        tfavoriteColors.put("Adam", Color.RED);
+        tfavoriteColors.put("Eve", Color.BLUE);
+        tfavoriteColors.put("Robert", Color.BLACK);
+        tfavoriteColors.put("Mark", Color.WHITE);
+        tfavoriteColors.put("Pedro", Color.YELLOW);
+        tfavoriteColors.put("Cole", Color.BLUE);
         System.out.println(tfavoriteColors);
 
         Set<String> tkeySet = tfavoriteColors.keySet();
