@@ -77,9 +77,9 @@ public class Main {
         System.out.println(tfavoriteColors);
 
         Set<String> tkeySet = tfavoriteColors.keySet();
-        for (String key : tkeySet) {
-            Color value = tfavoriteColors.get(key);
-            System.out.println(key + " : " + value);
+        for (String tkey : tkeySet) {
+            Color value = tfavoriteColors.get(tkey);
+            System.out.println(tkey + " : " + value);
         }
 
     }
